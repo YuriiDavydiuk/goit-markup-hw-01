@@ -4,19 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
-    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <!-- <script src="https://unpkg.com/htmx.org@1.9.12"></script> -->
   </head>
   <body>
     <header>
-      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-main.partial.html"></section>
+      <!-- <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-main.partial.html"></section> -->
+      <nav>
+        <!-- left: logo -->
+
+        <a href="index.html">WEB<span>STUDIO</span></a>
+
+        <!-- center: main menu-->
+        <ul>
+          <li>Studio</li>
+          <li>Portfolio</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+
+      <!-- right: contacts -->
+      <div>
+        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+        <p><a href="tel:+110001111111">+11 (000) 111-11-11</a></p>
+      </div>
     </header>
     <main>
-      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.business-solutions.partial.html"></section>
-      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.core-values.partial.html"></section>
-      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.our-team.partial.html"></section>
+      <!-- <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.business-solutions.partial.html"></section> -->
+      <!-- <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.core-values.partial.html"></section> -->
+      <!-- <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.our-team.partial.html"></section> -->
+
+      <div>
+        <h1>
+          Effective Solutions <br />
+          for Your Business
+        </h1>
+        <button>Order Service</button>
+      </div>
+
+      <div>
+        <h2>Strategy</h2>
+        <p>
+          Our goal is to identify the business problem to walk away with the
+          perfect and creative solution.
+        </p>
+      </div>
+      <div>
+        <h2>Punctuality</h2>
+        <p>
+          Bring the key message to the brand's audience for the best price
+          within the shortest possible time.
+        </p>
+      </div>
+      <div>
+        <h2>Diligence</h2>
+        <p>
+          Research and confirm brands with the strongest digital growth
+          opportunities and minimize risk.
+        </p>
+      </div>
+      <div>
+        <h2>Technologies</h2>
+        <p>
+          Design practice focused on digital experiences. We bring forth a deep
+          passion for problem-solving.
+        </p>
+      </div>
+
+      <div>
+        <h2>Our Team</h2>
+
+        <div>
+          <!-- first team member -->
+          <div>
+            <img
+              src="img/index.our-team/mark-guerrero.jpg"
+              alt="Mark Guerrero - Product Designer"
+            />
+            <h3>Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </div>
+
+          <!-- second team member -->
+          <div>
+            <img
+              src="img/index.our-team/tom-ford.jpg"
+              alt="Tom Ford - Frontend Developer"
+            />
+            <h3>Tom Ford</h3>
+            <p>Frontend Developer</p>
+          </div>
+
+          <!-- third team member -->
+          <div>
+            <img
+              src="img/index.our-team/gamila-garcia.jpg"
+              alt="Gamila Garcia - Marketing"
+            />
+            <h3>Camila Garcia</h3>
+            <p>Marketing</p>
+          </div>
+
+          <!-- fourth team member -->
+          <div>
+            <img
+              src="img/index.our-team/daniel-wilson.jpg"
+              alt="Daniel Wilson - UI Designer"
+            />
+            <h3>Daniel Wilson</h3>
+            <p>UI Designer</p>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer>
-      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.footer.partial.html"></section>
+      <!-- <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.footer.partial.html"></section> -->
+
+      <a href="index.html">WEB<span>STUDIO</span></a>
+      <p>
+        Increase the flow of customers and <br />
+        sales for your business with digital <br />
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
