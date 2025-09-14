@@ -1,5 +1,3 @@
-# goit-markup-hw-01
-
 # HTML Template Repository with HTML Proofer
 
 This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
